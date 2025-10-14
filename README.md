@@ -28,6 +28,24 @@ Helps visualize model layers, parameters, and design differences.
 
 Useful for understanding how each network contributes to the overall adversarial process.
 
+3.Deep Convolutional GAN (DCGAN)
+
+The DCGAN is an advanced version of the basic GAN architecture that leverages convolutional layers to generate more realistic and high-quality images.
+
+Generator: Takes random noise as input and uses transposed convolutional layers (also known as deconvolutions) to generate synthetic images.
+
+Discriminator: Uses convolutional layers to distinguish between real and generated (fake) images.
+
+Training Process: The generator and discriminator are trained alternately — the discriminator learns to improve its classification accuracy, while the generator learns to produce increasingly realistic images that can fool the discriminator.
+
+Outputs: Includes training loss curves and sample generated images at different epochs, illustrating the progressive improvement in image quality.
+
+Key Features:
+
+Uses convolutional and batch normalization layers for stable training.
+
+Produces higher-resolution and more detailed images compared to basic GANs.
+
 🚀 Future Work
 
 This repository will continue to grow with new experiments and projects focused on image generation and generative modeling, including:
